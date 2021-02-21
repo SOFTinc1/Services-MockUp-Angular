@@ -4,13 +4,25 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
+import { HeaderModule } from './header/header.module';
+import { FooterModule } from './footer/footer.module';
+import { Header2Module } from './header2/header2.module';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    HeaderModule,
+    Header2Module,
+    FooterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

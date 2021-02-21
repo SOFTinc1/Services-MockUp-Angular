@@ -1,0 +1,137 @@
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+
+// --------------------- GENERAL -----------------------------
+button { background-color:  #068bd8; padding-top: 0.5rem; padding-bottom: 0.5rem; color: white; border: none; text-transform: uppercase; transition: all .9s ease-out; font-family: 'Josefin Sans', sans-serif; }
+button:hover {  transform: scale(1.1); box-shadow:0 10px 30px -10px rgba(0, 0, 0, 0.4) }
+.special-btn { background-color:  #db1f1f; color: white; border: none; text-transform: uppercase; font-family: 'Montserrat', sans-serif; font-weight: 600; margin-left: 32rem; }
+.special-btn-2 { background-color:  #db1f1f; color: white; border: none; text-transform: uppercase; font-family: 'Montserrat', sans-serif; font-weight: 600; margin-left: 17rem; }
+h2, h1, span{ font-family: 'Josefin Sans', sans-serif; text-transform: capitalize; }
+p {  font-family: 'Montserrat', sans-serif; }
+.title { padding-left: 18rem; }
+.title-p { padding-left: 10rem; padding-right: 8rem; text-align: center; }
+.by-2-card { padding-left: 8rem; padding-right: 5rem; margin-top: 3rem; }
+.by-4-card { padding-left: 3rem; margin-top: 3rem; }
+.card { padding: 1.5rem; border: none; border-radius: 1rem; box-shadow: 0 10px 30px -10px #0278bd93; }
+.card span { text-align: center; color: #068bd8; text-transform: capitalize; }
+hr { border: 1px dashed rgb(197, 197, 197); margin-top: 5rem; margin-right: 5rem; margin-left: 7rem; }
+.bg-blue { background-color:  #068bd8; }
+.bg-blue .title, .bg-blue .title-p { color: #fff; }
+.by-2-card-alone { padding: 0; margin-top: 3rem; }
+.by-2-card-alone-2 { padding-left: 4rem; padding-right: 4rem; margin-top: 3rem; }
+.by-3-card-alone { padding-left: 4rem; padding-right: 4rem; margin-top: 3rem; }
+
+
+//---------------------- END OF GENERAL ------------------------
+
+// --------------------- ONE -----------------------------
+#one { background-color:  #068bd8; background-size: cover; padding: 1rem; height: 44rem; }
+#one h1 { font-size: 3.5rem; color: #fff; margin-top: 5rem; padding: 1rem; }
+#one p { color: #fff; margin-top: 3rem; font-size: 1.2rem; text-transform: capitalize; font-weight: 600; line-height: 2rem; }
+#one .image1 img { width: 100%; border-radius: 0.5rem; margin-top: 2.5rem; margin-left: 5rem; float: left; transform: rotate(-8deg); }
+#one .image2 img { width: 50%; margin-top: -8rem; height: 14rem; border-radius: 0.5rem; transform: rotate(-8deg); }
+// --------------------- END OF ONE -----------------------------
+
+// --------------------- TWO -----------------------------
+#two img { width: 80%; margin-top: -8rem; margin-left: 7rem; height: 28rem; border-radius: 1.7rem; }
+// box-shadow: 20px 20px #aaa, 10px 10px rgb(99, 98, 98);
+
+// --------------------- END OF TWO -----------------------------
+
+// --------------------- THREE -----------------------------
+#three { padding: 1rem; }
+#three img { width: 100%; }
+#three h2 { font-size: 1.5rem; text-align: center; }
+#three p { font-size: 1rem; text-align: center; margin-top: 2rem; }
+// --------------------- END OF THREE -----------------------------
+
+// --------------------- FOURTEEN -----------------------------
+#fourteen h1, p { text-align: center; }
+#fourteen input { width: 100%; margin-bottom: 2rem; padding: 1.5rem; border: 2px solid rgb(214, 214, 214); }
+#fourteen input::placeholder { text-transform: capitalize; font-family: 'Josefin Sans', sans-serif; }
+#fourteen textarea { border: 2px solid rgb(214, 214, 214); text-transform: capitalize; font-family: 'Josefin Sans', sans-serif; }
+#fourteen .card {  border-radius: 0.3rem; box-shadow: 0 10px 30px -10px #0e0e0e93; margin-bottom: 2rem; padding: 0.8rem; }
+#fourteen .card img { width: 100%; }
+#fourteen .move { margin: 1rem 0rem 0rem 3rem; }
+#fourteen .moving { margin: 1rem 0rem 0rem 6rem; }
+#fourteen .moved { margin: 4rem 0rem 0rem 3rem; }
+// --------------------- END OF FOURTEEN -----------------------------
+
+// --------------------- FIFTEEN -----------------------------
+#fifteen h1 { color: #fff; margin-left: 10rem; font-size: 1.2rem; }
+#fifteen p { color: #fff; text-align: start; margin-left: 10rem; font-size: 0.8rem; }
+#fifteen input { width: 100%; background-color: rgba(163, 241, 241, 0.253); padding: 1rem; border: none; border-radius: 1rem; }
+#fifteen input::placeholder { text-transform: capitalize; font-family: 'Josefin Sans', sans-serif; color: #fff; }
+#fifteen img { width: 10%; margin: -5rem 0 0 19rem; }
+// --------------------- END OF FIFTEEN -----------------------------
+
+
+// ------------------SUBSCRIBE MAT-FORM START------------------
+
+// ------------------ SUBSCRIBE MAT-FORM END------------------
+// ------------------ END OF FIVE -----------------------------------------
+
+
+
+
+
+
+// ------------------------ Mobile Devices -----------------------------------
+
+@media screen and (max-width:1200px){
+  #one .image1 img { margin-left: 0rem; margin-top: 5rem; }
+  .special-btn { margin-left: 25rem; }
+  #fifteen img { width: 10%; margin: -5rem 0 0 15rem; }
+
+}
+
+@media screen and (max-width:900px){
+  .title { padding-left: 10rem; }
+  .title-p { padding-left: 0rem; padding-right: 0rem; text-align: center; }
+  .by-2-card { padding-left: 0rem; padding-right: 0rem; margin-top: 3rem; }
+  .by-4-card { padding-left: 0rem; margin-top: 3rem; }
+  .special-btn { margin-left: 17rem; }
+  #fifteen img { width: 10%; margin: -5rem 0 0 11rem; }
+
+}
+
+@media screen and (max-width:750px){
+  #one .image1 img { width: 100%; margin-left: 0rem; transform: rotate(0deg); }
+  #one .image2 img { display: none; }
+  #two img { width: 100%; margin-top: 0rem; display: none;  }
+  #three { margin-top: 5rem; }
+
+  .special-btn { margin-left: 5rem; }
+  .wahala { margin: 1rem 0rem 5rem 7rem; }
+  .title { padding-left: 0rem; }
+  .title-p { padding-left: 0rem; padding-right: 0rem; text-align: center; }
+  .by-2-card { padding-left: 0rem; padding-right: 0rem; margin-top: 3rem; }
+  .by-4-card { padding-left: 0rem; margin-top: 3rem; }
+  .card { margin-bottom: 1rem; }
+  hr { border: 1px dashed rgb(197, 197, 197); margin-top: 5rem; margin-right: 0rem; margin-left: 0rem; }
+  .by-2-card-alone { padding: 0; margin-top: 3rem; }
+  .by-2-card-alone-2 { padding-left: 0rem; padding-right: 0rem; margin-top: 3rem; }
+  .by-3-card-alone { padding-left: 0rem; padding-right: 0rem; margin-top: 3rem; }
+  #fourteen .move { margin: 1rem 0rem 0rem 0rem; }
+  #fourteen .moved, #fourteen .moving {  margin: 0rem; }
+  #fifteen h1, #fifteen p { margin-left: 0rem; }
+  #fifteen img { width: 10%; margin: -5rem 0 0 18.5rem; }
+
+}
+
+@media screen and (max-width:650px){
+
+}
+
+@media screen and (max-width:550px){
+
+}
+
+@media screen and (max-width:450px){
+
+}
+
+@media screen and (max-width:350px){
+
+}
+

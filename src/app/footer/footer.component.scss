@@ -1,0 +1,29 @@
+h1{ font-family: 'Josefin Sans', sans-serif; text-transform: capitalize; text-align: center; font-size: 1.2rem; padding: 1rem 15rem 1rem 15rem; }
+address, p { font-family: 'Montserrat', sans-serif; font-size: 1.5rem; text-align: center; text-transform: capitalize; color: #aaa; }
+img { margin-left: 25rem; }
+address, p { font-size: 1rem; }
+.icons { margin-left: 25rem; margin-top: 3rem; }
+.icons span a img { width: 10%; padding-left: 2rem; margin-left: 0rem; }
+
+
+@media screen and (max-width:1200px){
+  img { margin-left: 20rem; }
+  h1{ padding: 0rem; }
+  .icons { margin-left: 23rem; }
+  .icons span a img { padding-left: 1rem; width: 10%; }
+
+}
+
+@media screen and (max-width:900px){
+  img { margin-left: 10rem; }
+  h1{ padding: 0rem; }
+  .icons { margin-left: 15rem; }
+  .icons span a img { padding-left: 1rem; width: 10%; }
+}
+
+@media screen and (max-width:750px){
+  h1{ padding: 0rem; }
+  img { width: 100%; margin-left: 0rem; }
+  .icons { margin-left: 5rem; }
+  .icons span a img { padding-left: 1rem; width: 15%; }
+}
